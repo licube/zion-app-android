@@ -33,8 +33,31 @@ public class DashBoard extends Activity {
             mCardView.addCard(new MyPlayCard(
                     getString(R.string.dash_title_notices), 
                     getString(R.string.dash_desc_notices), 
-                    "#f2a400", "#9d36d0", false, true));
-          
+                    "#FF0000", "#FF0000", false, true));
+            mCardView.addCard(new MyPlayCard(
+                    getString(R.string.dash_title_meal), 
+                    getString(R.string.dash_desc_meal), 
+                    "#FFA500", "#FFA500", false, true));
+            mCardView.addCard(new MyPlayCard(
+                    getString(R.string.dash_title_sched), 
+                    getString(R.string.dash_desc_sched), 
+                    "#00CD00", "#00CD00", false, true));
+            mCardView.addCard(new MyPlayCard(
+                    getString(R.string.dash_title_contact), 
+                    getString(R.string.dash_desc_contact), 
+                    "#0000A0", "#0000A0", false, true));
+            mCardView.addCard(new MyPlayCard(
+                    getString(R.string.dash_title_notiparent), 
+                    getString(R.string.dash_desc_notiparent), 
+                    "#808000", "#808000", false, true));
+            mCardView.addCard(new MyPlayCard(
+                    getString(R.string.dash_title_schoolinfo), 
+                    getString(R.string.dash_desc_schoolinfo), 
+                    "#25383C", "#25383C", false, true));
+            mCardView.addCard(new MyPlayCard(
+                    getString(R.string.dash_title_appinfo), 
+                    getString(R.string.dash_desc_appinfo), 
+                    "#3D2A26", "#3D2A26", false, true));
             // draw cards
             mCardView.refresh();
     }

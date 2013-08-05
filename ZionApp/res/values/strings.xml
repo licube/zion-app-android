@@ -10,5 +10,17 @@
 	<string name="color_stripe">Color Stripe</string>
 	<string name="dash_title_notices">Notices</string>
 	<string name="dash_desc_notices">Recent Notices from The School</string>
+	<string name="dash_title_meal">Meal </string>
+	<string name="dash_desc_meal">Check out the lunch and dinner menu</string>
+	<string name="dash_title_sched">Schedules</string>
+	<string name="dash_desc_sched">Check out the School Schedules</string>
+	<string name="dash_title_contact">Contact</string>
+	<string name="dash_desc_contact">Contact to the school</string>
+	<string name="dash_title_notiparent">Notices For Parents</string>
+	<string name="dash_desc_notiparent">Check out the recent notices for panents</string>
+	<string name="dash_title_schoolinfo">About The School</string>
+	<string name="dash_desc_schoolinfo">Know more about the school</string>
+	<string name="dash_title_appinfo">About the App</string>
+	<string name="dash_desc_appinfo">Know more about this app</string>
 
 </resources>
