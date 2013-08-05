@@ -1165,11 +1165,12 @@ containing a value of this type.
         public static final int card_background=0x7f020058;
         public static final int card_background_shadow=0x7f020059;
         public static final int card_shadow=0x7f02005a;
-        public static final int ic_launcher=0x7f02005b;
-        public static final int selectable_background_cardbank=0x7f02005c;
-        public static final int top_shadow=0x7f02005d;
-        public static final int url1=0x7f02005e;
-        public static final int zion_icon=0x7f02005f;
+        public static final int dash_header_bg=0x7f02005b;
+        public static final int ic_launcher=0x7f02005c;
+        public static final int selectable_background_cardbank=0x7f02005d;
+        public static final int top_shadow=0x7f02005e;
+        public static final int url1=0x7f02005f;
+        public static final int zion_icon=0x7f020060;
     }
     public static final class id {
         public static final int ScrollView1=0x7f08004a;
@@ -1186,17 +1187,17 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f08002f;
         public static final int action_mode_bar_stub=0x7f08002e;
         public static final int action_mode_close_button=0x7f080022;
-        public static final int action_settings=0x7f080051;
+        public static final int action_settings=0x7f080052;
         public static final int activity_chooser_view_content=0x7f080023;
         public static final int always=0x7f08000b;
         public static final int beginning=0x7f080011;
-        public static final int cardContent=0x7f08004e;
+        public static final int cardContent=0x7f08004f;
         public static final int cardsview=0x7f080042;
         public static final int checkbox=0x7f08002b;
         public static final int collapseActionView=0x7f08000d;
         public static final int contentLayout=0x7f080046;
         public static final int default_activity_button=0x7f080026;
-        public static final int description=0x7f080043;
+        public static final int description=0x7f080044;
         public static final int dialog=0x7f08000e;
         public static final int disableHome=0x7f080008;
         public static final int dropdown=0x7f08000f;
@@ -1204,13 +1205,13 @@ containing a value of this type.
         public static final int end=0x7f080013;
         public static final int expand_activities_button=0x7f080024;
         public static final int expanded_menu=0x7f08002a;
-        public static final int footer=0x7f08004c;
+        public static final int footer=0x7f08004d;
         public static final int home=0x7f080014;
         public static final int homeAsUp=0x7f080005;
         public static final int icon=0x7f080028;
         public static final int ifRoom=0x7f08000a;
         public static final int image=0x7f080025;
-        public static final int imageView1=0x7f080044;
+        public static final int imageView1=0x7f080043;
         public static final int left_icon=0x7f080031;
         public static final int listMode=0x7f080001;
         public static final int listView=0x7f080048;
@@ -1220,7 +1221,7 @@ containing a value of this type.
         public static final int none=0x7f080010;
         public static final int normal=0x7f080000;
         public static final int overflow=0x7f080047;
-        public static final int placeholder=0x7f08004d;
+        public static final int placeholder=0x7f08004e;
         public static final int progress_circular=0x7f080034;
         public static final int progress_horizontal=0x7f080035;
         public static final int radio=0x7f08002d;
@@ -1241,13 +1242,14 @@ containing a value of this type.
         public static final int showHome=0x7f080004;
         public static final int showTitle=0x7f080006;
         public static final int split_action_bar=0x7f08001c;
-        public static final int stackContainer=0x7f080050;
-        public static final int stackTitle=0x7f08004f;
+        public static final int stackContainer=0x7f080051;
+        public static final int stackTitle=0x7f080050;
         public static final int sticky=0x7f080049;
         public static final int stripe=0x7f080045;
         public static final int submit_area=0x7f08003f;
         public static final int tabMode=0x7f080002;
         public static final int tableLayout=0x7f08004b;
+        public static final int textView1=0x7f08004c;
         public static final int title=0x7f080029;
         public static final int title_container=0x7f080030;
         public static final int top_action_bar=0x7f08001e;
@@ -1311,15 +1313,16 @@ containing a value of this type.
         public static final int card_play=0x7f03001b;
         public static final int cards_view=0x7f03001c;
         public static final int cards_view_multicolumn=0x7f03001d;
-        public static final int footer_fragment=0x7f03001e;
-        public static final int header=0x7f03001f;
-        public static final int item_card=0x7f030020;
-        public static final int item_card_empty=0x7f030021;
-        public static final int item_card_empty_first=0x7f030022;
-        public static final int item_card_empty_last=0x7f030023;
-        public static final int item_play_card_empty_first=0x7f030024;
-        public static final int item_stack=0x7f030025;
-        public static final int support_simple_spinner_dropdown_item=0x7f030026;
+        public static final int dash_header=0x7f03001e;
+        public static final int footer_fragment=0x7f03001f;
+        public static final int header=0x7f030020;
+        public static final int item_card=0x7f030021;
+        public static final int item_card_empty=0x7f030022;
+        public static final int item_card_empty_first=0x7f030023;
+        public static final int item_card_empty_last=0x7f030024;
+        public static final int item_play_card_empty_first=0x7f030025;
+        public static final int item_stack=0x7f030026;
+        public static final int support_simple_spinner_dropdown_item=0x7f030027;
     }
     public static final class menu {
         public static final int dash_board=0x7f0c0000;
@@ -1368,6 +1371,8 @@ containing a value of this type.
         public static final int action_settings=0x7f0b000e;
         public static final int app_name=0x7f0b000d;
         public static final int color_stripe=0x7f0b0013;
+        public static final int dash_desc_notices=0x7f0b0015;
+        public static final int dash_title_notices=0x7f0b0014;
         public static final int desc=0x7f0b0011;
         public static final int hello_world=0x7f0b000f;
         public static final int overflow=0x7f0b0012;

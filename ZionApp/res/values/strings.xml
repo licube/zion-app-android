@@ -8,5 +8,7 @@
     <string name="desc">Description</string>
 	<string name="overflow">Menu Overflow</string>
 	<string name="color_stripe">Color Stripe</string>
+	<string name="dash_title_notices">Notices</string>
+	<string name="dash_desc_notices">Recent Notices from The School</string>
 
 </resources>

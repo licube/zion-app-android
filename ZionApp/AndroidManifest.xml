@@ -16,7 +16,7 @@
         <activity
             android:name="kr.licubeclub.zionhs.DashBoard"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Light" >
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

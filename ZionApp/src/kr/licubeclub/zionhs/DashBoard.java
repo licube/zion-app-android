@@ -1,5 +1,7 @@
 package kr.licubeclub.zionhs;
 
+import kr.licubeclub.zionhs.R.string;
+
 import com.fima.cardsui.objects.CardStack;
 import com.fima.cardsui.views.CardUI;
 
@@ -12,7 +14,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-public class DashBoard extends ActionBarActivity {
+public class DashBoard extends Activity {
 
     private CardUI mCardView;
 
@@ -29,8 +31,8 @@ public class DashBoard extends ActionBarActivity {
             
 
             mCardView.addCard(new MyPlayCard(
-                    "Different Colors for Title & Stripe", 
-                    "You can set any color for the title and any other color for the left stripe", 
+                    getString(R.string.dash_title_notices), 
+                    getString(R.string.dash_desc_notices), 
                     "#f2a400", "#9d36d0", false, true));
           
             // draw cards
