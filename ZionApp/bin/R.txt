@@ -418,6 +418,7 @@ int drawable ic_launcher 0x7f02005b
 int drawable selectable_background_cardbank 0x7f02005c
 int drawable top_shadow 0x7f02005d
 int drawable url1 0x7f02005e
+int drawable zion_icon 0x7f02005f
 int id ScrollView1 0x7f08004a
 int id action_bar 0x7f08001a
 int id action_bar_activity_content 0x7f080015

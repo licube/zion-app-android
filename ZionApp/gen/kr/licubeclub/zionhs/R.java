@@ -1169,6 +1169,7 @@ containing a value of this type.
         public static final int selectable_background_cardbank=0x7f02005c;
         public static final int top_shadow=0x7f02005d;
         public static final int url1=0x7f02005e;
+        public static final int zion_icon=0x7f02005f;
     }
     public static final class id {
         public static final int ScrollView1=0x7f08004a;
