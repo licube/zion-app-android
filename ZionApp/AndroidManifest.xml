@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
+<uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -23,6 +24,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="kr.licubeclub.zionhs.Notices"
+            android:label="@string/title_activity_notices"
+            android:parentActivityName="kr.licubeclub.zionhs.DashBoard" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kr.licubeclub.zionhs.DashBoard" />
+        </activity>
+        <activity
+            android:name="kr.licubeclub.zionhs.Meal"
+            android:label="@string/title_activity_meal"
+            android:parentActivityName="kr.licubeclub.zionhs.DashBoard" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kr.licubeclub.zionhs.DashBoard" />
+        </activity>
+        
     </application>
 
 </manifest>
