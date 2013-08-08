@@ -24,5 +24,7 @@
     <string name="dash_desc_appinfo">Know more about this app</string>
     <string name="title_activity_notices">Notices</string>
     <string name="title_activity_meal">Meal</string>
+    <string name="title_activity_appinfo">Appinfo</string>
+    <string name="title_activity_contact">Contact</string>
 
 </resources>

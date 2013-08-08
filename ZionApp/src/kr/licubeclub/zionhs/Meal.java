@@ -4,17 +4,13 @@ import toast.library.meal.MealLibrary;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.TextView;
-import android.support.v4.app.NavUtils;
-import android.annotation.TargetApi;
-import android.os.Build;
+import android.support.v7.app.ActionBarActivity;
+import android.annotation.SuppressLint;
 
-public class Meal extends Activity {
+public class Meal extends ActionBarActivity {
 
     private ProgressDialog progressDialog;
     TextView text;
@@ -22,9 +18,9 @@ public class Meal extends Activity {
     String[] meal = new String[7];
     String[] meal2 = new String[7];
     String[] meal3 = new String[7];
-    String[] date = new String[7];
 
-    private final Handler handler = new Handler()
+    @SuppressLint("HandlerLeak")
+	private final Handler handler = new Handler()
     {
         @Override
         public void handleMessage(Message msg)
@@ -60,10 +56,14 @@ public class Meal extends Activity {
                     }
                 });
 
+    
      
-                //meal = Schoollibrary.getMeal("dge.go.kr","D100000393","3","03","1"); //조식 조회
-                meal2 = MealLibrary.getMeal("dge.go.kr","D100000393","3","03","2"); //중식 조회
-                //meal3 = Schoollibrary.getMeal("dge.go.kr","D100000393","3","03","3"); //석식 조회
+    	//meal = Schoollibrary.getMeal("dge.go.kr","D100000393","3","03","1"); //조식 조회
+         meal2 = MealLibrary.getMeal("goe.go.kr","P100000429","4","04","2"); //중식 조회
+         //meal3 = Schoollibrary.getMeal("dge.go.kr","D100000393","3","03","3"); //석식 조회
+     
+   
+                
            
 
 

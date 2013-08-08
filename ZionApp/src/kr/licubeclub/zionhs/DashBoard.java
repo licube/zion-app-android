@@ -36,7 +36,7 @@ public class DashBoard<Home> extends Activity {
             noticescard.setOnClickListener(new OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                        	Intent intent = new Intent(DashBoard.this, Meal.class);
+                        	Intent intent = new Intent(DashBoard.this, Notices.class);
                             startActivity(intent);
                         }
                     });
@@ -77,7 +77,7 @@ public class DashBoard<Home> extends Activity {
             contactcard.setOnClickListener(new OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                        	Intent intent = new Intent(DashBoard.this, Meal.class);
+                        	Intent intent = new Intent(DashBoard.this, Contact.class);
                             startActivity(intent);
                         }
                     });
@@ -116,7 +116,7 @@ public class DashBoard<Home> extends Activity {
             appinfocard.setOnClickListener(new OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                        	Intent intent = new Intent(DashBoard.this, Meal.class);
+                        	Intent intent = new Intent(DashBoard.this, Appinfo.class);
                             startActivity(intent);
                         }
                     });
